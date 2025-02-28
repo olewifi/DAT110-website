@@ -1,0 +1,18 @@
+
+body {
+    background-color: lightpink;
+}
+
+h1 {
+    color: blueviolet;
+    text-align: left;
+    font-size: 60px;
+}
+
+p {
+    color: red;
+    font: sans-serif;
+    font-size: 20px;
+}
+ 
+
