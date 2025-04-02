@@ -1,0 +1,44 @@
+/*Bruk en font fra Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 15;
+    box-sizing: border-box;
+    font-family: "Big shoulders", sans-serif;
+  }
+/*Legg til mer/mindre luft der det trengs*/
+/*Endre bakgrunnsfarger*/
+/*Bruk gjerne stilklassene bg-1 og bg-2 som i eksempelet "simply me"*/
+/*legg til mer om jeg føler for det*/
+
+body {
+    background-color: lightpink;
+}
+
+h1 {
+    color: #620cb3;
+    text-align: center;
+    font-size: 60px;
+    
+}
+h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 25px;
+}
+
+p {
+    color: rgb(134, 21, 125);
+    font: sans-serif;
+    font-size: 20px;
+}
+
+.footer-content{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(255, 0, 170);
+    position: fixed;
+    bottom: 0;
+  }
